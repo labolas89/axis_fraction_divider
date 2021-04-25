@@ -7,7 +7,6 @@ SHELL:=/bin/bash
 vmodule?=YOUR_VERILOG_MODULE_NAME
 WORK_PATH=$(shell pwd)
 OUT_PATH="$(shell pwd)/vlib"
-PATH:=$(VERILATOR_PATH)/bin:$(PATH)
 WARNINGS=0
 ERRORS=0
 
